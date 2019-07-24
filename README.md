@@ -13,4 +13,4 @@ I have detected pedestrians using HOG detector with a pretrained Support Vector 
 
 In order to send a signal to the ECU of the automobile after pedetrian detection i used a CAN controller(MCP2515) which converts the oputput from the raspberrypi into a signal which could be transmitted through CAN BUS.
 
-In order to indicate the vehicle which is having a blind spot i used LoRa WAN interfaced with an arduino at receiver en. 
+In order to indicate the vehicle which is having a blind spot i used LoRa WAN interfaced with an arduino at receiver end. 

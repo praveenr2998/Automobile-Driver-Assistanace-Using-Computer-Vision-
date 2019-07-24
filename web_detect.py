@@ -1,5 +1,5 @@
-# USAGE
-# python detect.py --images images
+# This code detects pedestrians using a web cam interfaced with OpenCV... 
+
 
 # import the necessary packages
 from __future__ import print_function
@@ -9,15 +9,15 @@ import numpy as np
 import imutils
 import cv2
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)  #Specify the desired port in raspberry pi instead of 0 or you can use 0 by conncting webcam  at the first port
+
 
 # initialize the HOG descriptor/person detector
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
+
 # loop over the image paths
-
-
 while True:
 	# load the image and resize it to (1) reduce detection time
 	# and (2) improve detection accuracy

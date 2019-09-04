@@ -9,7 +9,7 @@ Components Used: 1.Raspberry pi 3B+ - installed with OpenCv and its associated l
                  4.LoRa WAN module
                  5.WebCam 
                  
-I have detected pedestrians using HOG detector with a pretrained Support Vector Machine using OpenCv.
+I have detected pedestrians using HOG descriptor fed into a pretrained Support Vector Machine algorithm in OpenCv.
 
 In order to send a signal to the ECU of the automobile after pedetrian detection i used a CAN controller(MCP2515) which converts the oputput from the raspberrypi into a signal which could be transmitted through CAN BUS.
 
